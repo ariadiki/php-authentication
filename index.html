@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form" action="register.php" method="POST">
+            <label for="text"><b>Username</b></label></br>
+            <input type="text" placeholder="Enter username" name="user" id="user" required></br></br>
+
+            <label for="bth"><b>Birthday</b></label></br>
+            <input type="date" placeholder="Enter your birthday" name="bth" id="bth" min="1970-01-01" max="2005-01-01" required></br></br>
+
+            <label for="email"><b>Email</b></label></br>
+            <input type="email" placeholder="Enter your email" name="email" id="email" required></br></br>
+
+            <label for="psw"><b>Password</b></label></br>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required></br></br>
+    
+            <button type="submit" value="submit">Sign Up</button></br></br>
+            <b class="message">already have an account? <a href="login.html">login</a></b>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
